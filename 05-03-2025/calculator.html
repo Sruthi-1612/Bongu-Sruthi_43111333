@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        
+        .calculator {
+            width: 220px;
+            background: rgb(72, 130, 212);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 1000px rgba(220, 222, 235, 0.952);
+            text-align: center;
+        }
+        .screen {
+            width: 100%;
+            height: 50px;
+            text-align: right;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding-right: 5px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+        button {
+            padding: 15px;
+            font-size: 1.2em;
+            border: none;
+            background: #ddd;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #6894cd;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div><h1>Calculator</h1></div>
+        <div class="screen"></div>
+        <div class="buttons">
+            <button>C</button>
+            <button>/</button>
+            <button>*</button>
+            <button>-</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>+</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>=</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>0</button>
+            
+        </div>
+    </div>
+</body>
+</html>
